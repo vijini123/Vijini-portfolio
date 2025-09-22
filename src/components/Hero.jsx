@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Github, Linkedin, Instagram, Facebook } from "lucide-react";
-const WORDS = ["Designer", "Developer", "Freelancer"];
+const WORDS = ["Designer.", "Developer.", "Freelancer."];
 
 function Typewriter() {
   const [idx, setIdx] = useState(0); // index of current word
@@ -131,7 +131,7 @@ export default function About() {
         {/* Right side: image */}
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
-          whileInView={{ opacity: 1, scale: 1 }}
+          whileInView={{ opacity: 1, scale: 0.75 }}
           viewport={{ once: true }}
           transition={{ duration: 1 }}
           className="relative"
