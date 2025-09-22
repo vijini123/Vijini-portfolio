@@ -23,10 +23,10 @@ const SKILLS = [
   { name: 'Tailwind CSS', Icon: Wind },
 
   // Backend & DevOps
-  { name: 'Node.js', Icon: Server },
+ /* { name: 'Node.js', Icon: Server },
   { name: 'Express', Icon: GitBranch },
   { name: 'Docker', Icon: Box },
-  { name: 'AWS', Icon: Cloud },
+  { name: 'AWS', Icon: Cloud },*/
 
   // Databases & Languages (updated per your request)
   { name: 'MongoDB', Icon: Leaf },

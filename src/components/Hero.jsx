@@ -60,7 +60,7 @@ export default function About() {
           {/* Name tag */}
           <div className="inline-flex items-center gap-2 rounded-2xl border border-white/10 bg-white/30 dark:bg-white/5 backdrop-blur px-3 py-1 shadow-md">
             <span className="h-2 w-2 rounded-full bg-emerald-500 animate-pulse" />
-            <span className="text-sm font-medium">Ashan Dilakshana</span>
+            <span className="text-sm font-medium">Vijini Jayathilaka</span>
           </div>
 
           {/* Typing line */}
@@ -72,15 +72,16 @@ export default function About() {
           {/* Description */}
           <div className="card p-6">
             <p className="opacity-80">
-              I’m Ashan Dilakshana, a full-stack software engineer who loves
-              crafting elegant, performant applications. I focus on React,
-              motion design, and AI-driven solutions - turning complex ideas
-              into smooth, modern interactions.
+              Hi, I’m Vijini! I’m a 3rd-year undergraduate at SLIIT, pursuing a BSc (Hons) in 
+              Information Technology. I’m passionate about software development, UI/UX design, 
+              and building innovative projects that solve real-world problems. My portfolio 
+              showcases my academic projects, technical skills, and creative work as I continue 
+              to grow as an IT professional.
             </p>
           </div>
           <div className="flex gap-4 mt-4  s ">
             <a
-              href="https://github.com/AshanDilakshana"
+              href="https://github.com/vijini123"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-xl border border-white/10 hover:bg-black/5 dark:hover:bg-white/5 transition"
@@ -88,7 +89,7 @@ export default function About() {
               <Github size={22} />
             </a>
             <a
-              href="https://www.linkedin.com/in/ashan-dikakshana-ranasingha-bb1391182/"
+              href="https://www.linkedin.com/in/vijini-jayathilaka-042740264?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-xl border border-white/10 hover:bg-black/5 dark:hover:bg-white/5 transition"
@@ -96,7 +97,7 @@ export default function About() {
               <Linkedin size={22} />
             </a>
             <a
-              href="https://www.instagram.com/s_h_a_n___x___dr?igsh=MWltYjNvOHg1dDhvMA=="
+              href="https://www.instagram.com/_v_i_j_i_n_i_?igsh=MXZnano3NWF0djlibw%3D%3D&utm_source=qr"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-xl border border-white/10 hover:bg-black/5 dark:hover:bg-white/5 transition"
@@ -104,7 +105,7 @@ export default function About() {
               <Instagram size={22} />
             </a>
             <a
-              href="https://www.facebook.com/share/1BJLxVt27C/"
+              href="https://www.facebook.com/vijinijayathilaka?mibextid=wwXIfr"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-xl border border-white/10 hover:bg-black/5 dark:hover:bg-white/5 transition"
@@ -118,8 +119,8 @@ export default function About() {
               Hire Me
             </a>
             <a
-              href="/Ashan-Dilakshana-CV.pdf"
-              download="Ashan-Dilakshana-CV.pdf"
+              href="\vijini jayathilaka CV.pdf"
+              download="vijini jayathilaka-CV.pdf"
               className="soft-btn"
             >
               Download CV
@@ -136,8 +137,8 @@ export default function About() {
           className="relative"
         >
           <img
-            src="/ashan-portrait-enhanced1.png"
-            alt="Ashan Dilakshana"
+            src="/vijini.jpg"
+            alt="vijini jayathilaka"
             className="w-full max-w-md mx-auto rounded-3xl border border-white/10 shadow-2xl object-cover"
           />
           <div className="absolute -z-10 -inset-6 blur-3xl opacity-40 bg-gradient-to-tr from-brand-400 to-brand-700 rounded-[36px]" />

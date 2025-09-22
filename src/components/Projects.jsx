@@ -3,45 +3,55 @@ import { motion } from "framer-motion";
 
 const PROJECTS = [
   {
-    name: "Road Master",
+    name: "To-Do App",
     description:
       "MERN Stack | Developed an online road failure reporting system. Users reported issues with location and images, while admins managed and updated issue statuses in real time.",
     link: "https://github.com/AshanDilakshana/Road_Master?tab=readme-ov-file#-login-page",
-    tags: ["MERN", "React", "Node.js", "MongoDB", "Express"],
-    demo: "",
-    github: "https://github.com/AshanDilakshana/Road_Master.git",
-    image: "/roadmaster.png",
+    tags: ["XML", "Kotlin"],
+    demo: "/",
+    github: "https://github.com/vijini123/To-Do-App.git",
+    image: "/to-do.png",
   }
     ,
   {
-    name: "Factory Management System",
+    name: "Tour Quotation Calculation ",
     description:
-      "React, Node.js, MongoDB | Built a full-stack MERN application with JWT auth, covering production, inventory, employee scheduling, and sales. Deployed using React and JavaScript.",
+      "React, Node.js, MongoDB | Built a full-stack MERN application with JWT auth, covering hotel, tour, tour guide, and transport. Deployed using React and JavaScript.",
     link: "https://github.com/AshanDilakshana/factoryManagementSystem/blob/main/README.md#welcome--access",
     tags: ["React", "Node.js", "MongoDB", "JWT"],
-    demo: "",
-    github: "https://github.com/yourusername/factory-management",
-    image: "/factory.png",
+    demo: "/",
+    github: "https://github.com/Pasindu991182/cotation-calculation.git",
+    image: "/tour.png",
   },
   {
-    name: "vehicle spare parts management system ",
+    name: "vehicl service management system ",
     description:
       "Java, MySQL | Designed and implemented a web-based system for managing inventory, orders, and suppliers. Features included real-time stock updates, user authentication, and automated report generation for efficient resource management.",
     link: "#",
-    tags: ["Java", "MySQL"],
-    demo: "",
-    github: "https://github.com/yourusername/spare-parts-management",
-    image: "/vehical.png",
+    tags: ["Java", "MySQL", "MERN"],
+    demo: "/",
+    github: "https://github.com/vijini123/vehicle-service-management.git",
+    image: "/savonta.png",
   },
   {
-    name: "LearnHub Web App",
+    name: "Skill Connect Web App",
     description:
       "React, Spring Boot | Developed an online knowledge-sharing platform with a React frontend and Spring Boot backend, enabling users to efficiently share and access educational content.",
     link: "#",
     tags: ["React", "Spring Boot"],
     demo: "/",
-    github: "https://github.com/yourusername/learnhub",
-    image: "/learnhub.png",
+    github: "https://github.com/Pasindu991182/SkillConnect.git",
+    image: "/SConnect.png",
+  },
+  {
+    name: "Clothing store App Design",
+    description:
+      "Modern UI/UX design for a online clothing store Application.",
+    link: "#",
+    tags: [""],
+    demo: "/",
+    github: "https://www.figma.com/design/vDBY8F3l7kKSzgrAAx79GL/Untitled?node-id=0-1&t=e8YMf3O6ji8Tcq0M-1",
+    image: "/trendtrove.png",
   },
 ];
 
@@ -86,7 +96,7 @@ export default function Projects() {
 
             {/* Buttons */}
             <div className="mt-4 flex gap-3">
-              <a
+             <a
                 href={p.demo}
                 target="_blank"
                 rel="noopener noreferrer"

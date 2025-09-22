@@ -9,7 +9,7 @@ export default function ScrollProgress() {
       style={{ scaleX: scrollYProgress }}
       className="fixed left-0 top-0 h-1 w-full origin-left z-[60]"
     >
-      <div className="h-full w-full" style={{ backgroundImage: 'linear-gradient(90deg, #c4b5fd, #7c3aed)' }} />
+      <div className="h-full w-full" style={{ backgroundImage: 'linear-gradient(90deg, #e0edc3ff, #8c819eff)' }} />
     </motion.div>
   )
 }

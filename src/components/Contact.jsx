@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 import { motion } from "framer-motion";
 
-const TO_EMAIL = "ashandilakshana2002@gmail.com"; // <- your recipient
+const TO_EMAIL = "vijinijayathilaka24145@gmail.com"; // <- your recipient
 
 export default function Contact() {
   const [form, setForm] = useState({
